@@ -1,0 +1,7 @@
+type: update
+name: test
+onInstall:
+  appendFile:
+    nodeGroup: cp
+    path: /var/log/run2.log
+    body: string
